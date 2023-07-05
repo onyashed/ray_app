@@ -1,9 +1,6 @@
 # Python basics
 # This is a single line comment.
-"""
-Author: Onyango Edwin
-email:onyango@verygood.co.ke
-Very Good Tech."""
+
 """
 Block comments goes in here.
 another line goes underneath here.
