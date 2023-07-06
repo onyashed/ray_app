@@ -34,9 +34,16 @@ def count(firstval=0, step=1):
         yield x
         x += step
 
-def forloop(x):
-    ...
+def ifelseif(names):
+    if names == "A":
+        ...
+        #listfiles = os.listdir("docs/downloads/docs/conversions/swa/doc2txt")
+    elif names == "B":
+        ...
+       # listfiles = os.listdir
+    return names
+
 # for(x=x;x<5;)
 #for chunk in :
 # mysocket.write(chunk)
-print(count(7,2))
+#print(count(7,2))
