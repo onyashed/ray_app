@@ -1,7 +1,7 @@
 """
 Author: Onyango Edwin
 email:onyango@verygood.co.ke
-Very Good Tech."""
+VeryGood Solutions."""
 # Control Structures tested within functions.
 
 # if
