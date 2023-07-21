@@ -30,4 +30,4 @@ def div(a,b):
     else:
         return a/b;
 print(div(0,2))
-# Handle Mul, sub and modulus.
+# Handle Mul, sub and modulus functions.
