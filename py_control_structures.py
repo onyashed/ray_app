@@ -2,6 +2,18 @@
 Author: Onyango Edwin
 email:onyango@verygood.co.ke
 VeryGood Solutions."""
+import datetime
+import time
+MONGODB_SETTINGS = {
+	'DB' : 'raydb',
+	'HOST' : '127.0.0.1',
+	'PORT' : 27017
+	}
+
+# import MongoEngine
+# db = MongoEngine()
+
+
 # Control Structures tested within functions.
 
 # if
@@ -36,14 +48,16 @@ def count(firstval=0, step=1):
 
 def ifelseif(names):
     if names == "A":
-        ...
+        now= time.time()
+        print(now)
         #listfiles = os.listdir("docs/downloads/docs/conversions/swa/doc2txt")
     elif names == "B":
         ...
        # listfiles = os.listdir
     return names
+ifelseif("A")
 
-# for(x=x;x<5;)
-#for chunk in :
-# mysocket.write(chunk)
-#print(count(7,2))
+# For loop.
+userlist=['Ray','Githinji','Sidera']
+for user in userlist:
+    print(user)
