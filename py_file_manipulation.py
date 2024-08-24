@@ -1,3 +1,4 @@
+import cmath
 import os
 import uuid
 from zipfile import ZipFile
@@ -57,3 +58,9 @@ print((my_account.balance))
 my_account.deposit(12)
 # reflecting deposited amount
 print(my_account.balance)
+#math library
+print(cmath.log10(100))
+print(cmath.pi)
+print(cmath.sin(90))
+print(cmath.sqrt(9))
+print(cmath.acosh(4))
