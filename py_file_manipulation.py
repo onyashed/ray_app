@@ -1,6 +1,9 @@
 import cmath
 import os
 import uuid
+from _pydecimal import Context
+from _random import Random
+from numbers import Complex
 from zipfile import ZipFile
 # importing a class defined in a file
 from py_classes_objects import BankAccount
@@ -64,3 +67,10 @@ print(cmath.pi)
 print(cmath.sin(90))
 print(cmath.sqrt(9))
 print(cmath.acosh(4))
+#todo sort inovation failure.
+#print(Random.random()+" ... generated random")
+#print(Complex.__pow__(5,5))
+#print(Context.logical_or(1,0))
+#Context.abs(-3.3)
+#print(Context.compare(8.0,9.3))
+
