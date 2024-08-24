@@ -1,6 +1,9 @@
 import os
 import uuid
 from zipfile import ZipFile
+# importing a class defined in a file
+from py_classes_objects import BankAccount
+
 
 
 def zipup(file_paths):
@@ -42,3 +45,15 @@ def savefile(filetype, inputfilename, inputfile):
     folder = './docs/uploads/'+filetype
     files = os.path.join(folder, inputfilename)
     inputfile.save(files)
+print("hallo kenya")
+# Instantiating the bankaccount object and invoking its' methods.
+# deposit an initial amount of 200 to the account
+my_account = BankAccount(200)
+# qithdrawing 50 from it.
+my_account.withdraw(50)
+# displaying balances in the account.
+print((my_account.balance))
+# depositing more funds
+my_account.deposit(12)
+# reflecting deposited amount
+print(my_account.balance)
