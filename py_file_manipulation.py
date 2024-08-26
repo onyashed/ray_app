@@ -70,7 +70,7 @@ print(cmath.pi)
 print(cmath.sin(90))
 print(cmath.sqrt(9))
 print(cmath.acosh(4))
-# todo sort invocation failure. Aug 24th 2024
+#
 print(mean(1.5,5.2))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
