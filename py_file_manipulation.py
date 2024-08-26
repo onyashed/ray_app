@@ -71,7 +71,7 @@ print(cmath.sin(90))
 print(cmath.sqrt(9))
 print(cmath.acosh(4))
 #
-print(mean(1.5,5.2))
+print(mean([1.5,3.3,4.5]))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
