@@ -5,6 +5,9 @@ from _pydecimal import Context
 from _random import Random
 from numbers import Complex
 from zipfile import ZipFile
+# Statistics package
+from stat import *
+from statistics import  *
 # importing a class defined in a file
 from py_classes_objects import BankAccount
 
@@ -67,7 +70,8 @@ print(cmath.pi)
 print(cmath.sin(90))
 print(cmath.sqrt(9))
 print(cmath.acosh(4))
-#todo sort inovation failure.
+# todo sort invocation failure. Aug 24th 2024
+print(mean(1.5,5.2))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
