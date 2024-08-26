@@ -77,6 +77,10 @@ print(median([2, 3, 4, 5]))
 # Standard deviation
 thedev=stdev([2.5, 3.25, 5.5, 11.25, 11.75])
 print(thedev)
+data = [1, 2, 2, 4, 4, 4, 5, 6]
+mu = mean(data)
+dvariance=pvariance(data, mu)
+print(dvariance)
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
