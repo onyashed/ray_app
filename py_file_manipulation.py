@@ -70,8 +70,10 @@ print(cmath.pi)
 print(cmath.sin(90))
 print(cmath.sqrt(9))
 print(cmath.acosh(4))
-#
+# Statistics package functions/methods. 2024 Aug 26
+
 print(mean([1.5,3.3,4.5]))
+print(median([2, 3, 4, 5]))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
