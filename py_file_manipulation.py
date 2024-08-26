@@ -86,6 +86,11 @@ x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 y = [1, 2, 3, 1, 2, 3, 1, 2, 3]
 covar=covariance(x, y)
 print(covar)
+# pearson Correlation
+corr=correlation(x,y)
+print(corr)
+
+
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
