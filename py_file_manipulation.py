@@ -4,6 +4,7 @@ import uuid
 from _pydecimal import Context
 from _random import Random
 from numbers import Complex
+from string import capwords
 from zipfile import ZipFile
 # Statistics package
 from stat import *
@@ -92,6 +93,9 @@ print(corr)
 # Linear Regression
 lg=linear_regression(x,y)
 print(lg)
+s="This is a good nation Mr. ray"
+str=capwords(s )
+print(str)
 
 
 #print(Random.random()+" ... generated random")
