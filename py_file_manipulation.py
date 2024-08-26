@@ -89,6 +89,9 @@ print(covar)
 # pearson Correlation
 corr=correlation(x,y)
 print(corr)
+# Linear Regression
+lg=linear_regression(x,y)
+print(lg)
 
 
 #print(Random.random()+" ... generated random")
