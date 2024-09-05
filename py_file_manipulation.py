@@ -8,11 +8,10 @@ from string import capwords
 from zipfile import ZipFile
 # Statistics package
 from stat import *
-from statistics import  *
-# importing a class defined in a file
+from statistics import *
+# importing a user defined class defined in a file
 from py_classes_objects import BankAccount
-
-
+# Running files from linux ubuntu.
 
 def zipup(file_paths):
     zipdir=None
@@ -104,3 +103,4 @@ print(str)
 #Context.abs(-3.3)
 #print(Context.compare(8.0,9.3))
 
+#2024 September  Updates.

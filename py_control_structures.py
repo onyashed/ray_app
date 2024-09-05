@@ -57,7 +57,7 @@ def ifelseif(names):
     return names
 ifelseif("A")
 
-# For loop.
+# For loop in an array list.
 userlist=['Ray','Githinji','Sidera']
 for user in userlist:
     print(user)
