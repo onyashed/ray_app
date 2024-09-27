@@ -22,7 +22,7 @@ def zipup(file_paths):
     zip_path = os.path.join(zipdir, filename)
     #     # writing files to a zipfile
     with ZipFile(zip_path, 'w') as zip:
-        #         # writing each file one by one
+        #      .hlh;  uuuuu   # writing each file one by one
         for file in file_paths:
             zip.write(file)
     return filename
