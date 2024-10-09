@@ -113,8 +113,19 @@ print(lg)
 s="This is a good nation Mr. ray"
 str=capwords(s )
 print(str)
+# move to lamda file
+x = lambda a, b : a * b
+print(x(5, 6))
+y=lambda m,n: m^n
+print(y(3,5))
+print(pow(3,5))
+def myfunc(n):
+  return lambda a : a * n
 
+mydoubler = myfunc(2)
 
+print(mydoubler(11))
+print(mydoubler(2))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))
