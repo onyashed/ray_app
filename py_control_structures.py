@@ -9,7 +9,7 @@ MONGODB_SETTINGS = {
 	'HOST' : '127.0.0.1',
 	'PORT' : 27017
 	}
-
+names="B"
 # import MongoEngine
 # db = MongoEngine()
 
@@ -52,7 +52,9 @@ def ifelseif(names):
         print(now)
         #listfiles = os.listdir("docs/downloads/docs/conversions/swa/doc2txt")
     elif names == "B":
-        ...
+        print(names)
+    else:
+        ... # three dots means do nothing..
        # listfiles = os.listdir
     return names
 ifelseif("A")
