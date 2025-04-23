@@ -4,6 +4,8 @@ email:onyango@verygood.co.ke
 VeryGood Solutions."""
 import datetime
 import time
+from ftplib import print_line
+
 MONGODB_SETTINGS = {
 	'DB' : 'raydb',
 	'HOST' : '127.0.0.1',
@@ -36,6 +38,7 @@ fnifelse(11)
 
 # nested if
 def whileloop(a):
+    print_line("Printing inside a while loop..")
     while(a>=10):
         print(a)
         a=a-1
