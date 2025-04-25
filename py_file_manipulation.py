@@ -3,12 +3,16 @@ import os
 import uuid
 from _pydecimal import Context
 from _random import Random
+from ftplib import print_line
 from numbers import Complex
 from string import capwords
 from zipfile import ZipFile
 # Statistics package
 from stat import *
 from statistics import *
+
+from orca.debug import println
+
 # importing a user defined class defined in a file
 from py_classes_objects import BankAccount
 # Running files from linux ubuntu.
@@ -65,14 +69,29 @@ my_account.deposit(12)
 # reflecting deposited amount
 print(my_account.balance)
 #math library
+print("log 10")
 print(cmath.log10(100))
+print("log n base x")
+print(cmath.log(3,2))
+print("pi")
 print(cmath.pi)
+print("pi")
 print(cmath.sin(90))
+print("square root")
 print(cmath.sqrt(9))
+print("Sqare")
+
+
 print(cmath.acosh(4))
+print(cmath.exp(2))
 # Statistics package functions/methods. 2024 Aug 26
 # basics
-print(mean([1.5,3.3,4.5]))
+print("Statistica...")
+data=[1.5,3.3,4.5]
+print(mean(data))
+print("Mean of ..")
+for item in data:
+    println(item)
 print(median([2, 3, 4, 5]))
 # Standard deviation
 thedev=stdev([2.5, 3.25, 5.5, 11.25, 11.75])
@@ -95,8 +114,19 @@ print(lg)
 s="This is a good nation Mr. ray"
 str=capwords(s )
 print(str)
+# move to lamda file
+x = lambda a, b : a * b
+print(x(5, 6))
+y=lambda m,n: m^n
+print(y(3,5))
+print(pow(3,5))
+def myfunc(n):
+  return lambda a : a * n
 
+mydoubler = myfunc(2)
 
+print(mydoubler(11))
+print(mydoubler(2))
 #print(Random.random()+" ... generated random")
 #print(Complex.__pow__(5,5))
 #print(Context.logical_or(1,0))

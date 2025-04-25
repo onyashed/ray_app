@@ -4,14 +4,16 @@ email:onyango@verygood.co.ke
 VeryGood Solutions."""
 import datetime
 import time
+from ftplib import print_line
+
 MONGODB_SETTINGS = {
 	'DB' : 'raydb',
 	'HOST' : '127.0.0.1',
 	'PORT' : 27017
 	}
-
+names="B"
 # import MongoEngine
-# db = MongoEngine()
+# db = MongoEngine(d)
 
 
 # Control Structures tested within functions.
@@ -36,6 +38,7 @@ fnifelse(11)
 
 # nested if
 def whileloop(a):
+    print_line("Printing inside a while loop..")
     while(a>=10):
         print(a)
         a=a-1
@@ -52,7 +55,9 @@ def ifelseif(names):
         print(now)
         #listfiles = os.listdir("docs/downloads/docs/conversions/swa/doc2txt")
     elif names == "B":
-        ...
+        print(names)
+    else:
+        ... # three dots means do nothing..
        # listfiles = os.listdir
     return names
 ifelseif("A")
