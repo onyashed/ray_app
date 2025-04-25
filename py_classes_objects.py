@@ -39,6 +39,7 @@ class BankAccount(object):
         elif service == 'w' or 'W':
             amount = input((" Enter withdrawal amount \n"))
             self.withdraw(amount)
+            print(self.balance())
             ...
 
 
