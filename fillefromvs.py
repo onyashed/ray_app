@@ -18,3 +18,7 @@ print(" answer "+str(ans))
 def multipy(a,b):
     return a*b
 print("anser"+str (ans))
+def divide (a,b):
+    return a/b
+print("answer"+str (ans))
+            
