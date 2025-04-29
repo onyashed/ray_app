@@ -15,4 +15,6 @@ def add (a,b):
 ans=add(100,200)
 print(" answer "+str(ans))
 # Multipy
-def multipy()
+def multipy(a,b):
+    return a*b
+print("anser"+str (ans))
