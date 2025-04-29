@@ -10,3 +10,7 @@ except ValueError:
 print(" hi there...")
 id=input(' what is your id \n')
 print(" my id is "+id)
+def add (a,b):
+    return a*b;
+ans=add(100,200)
+print(" answer "+str(ans))
